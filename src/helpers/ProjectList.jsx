@@ -12,15 +12,18 @@ export const ProjectList = [
     },
     {
         name: "Spotirank!",
-        image: SpotirankImg
+        image: SpotirankImg,
+        skills: "ReactJS, Python, Flask, CSS"
     },
     {
         name: "AeroMaestro",
-        image: AeroImg
+        image: AeroImg,
+        skills: "Python, Flask, TypeScript, Sveltekit, TailwindCSS"
     },
     {
         name: "TaskList",
-        image: TaskListImg
+        image: TaskListImg,
+        skills: "ReactJS, ExpressJS, NodeJS, AWS, DynamoDB"
     },    
     // {
     //     name: "TaskList",
