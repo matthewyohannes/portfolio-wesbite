@@ -8,17 +8,17 @@ export const Home = () => {
   return (
     <div className="home">
       <div className="about">
-      <h2>Hi, my name is Matthew 👋</h2>
+      <h2>Hi, my name is Matthew</h2>
       <div className="prompt">
         <p>A software developer with a passion for learning and creating.</p>
         <a href="https://github.com/matthewyohannes" target="_blank" rel="noopener noreferrer">
-          <GitHubIcon />
+          <GitHubIcon className="GitHubIcon"/>
         </a>
         <a href="https://www.linkedin.com/in/matthewyohannes" target="_blank" rel="noopener noreferrer">
-          <LinkedInIcon />
+          <LinkedInIcon className="LinkedInIcon"/>
         </a>
         <a href="mailto:matthewyohannes77@gmail.com" target="_blank" rel="noopener noreferrer">
-          <EmailIcon />
+          <EmailIcon className="EmailIcon"/>
         </a>
       </div>
     </div>
