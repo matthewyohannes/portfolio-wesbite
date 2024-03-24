@@ -1,29 +1,38 @@
 .project {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #686868;
-  }
-  
-  .project h1 {
-    margin-top: 50px;
-    color: #000000;
-    font-size: 35px;
-  }
-  .project img {
-    width: 350px;
-    border-radius: 10px;
-  }
-  
-  .project p {
-    font-size: 40px;
-    color: #000000;
-  }
-  
-  .project svg {
-    font-size: 60px;
-    color: #000000;
-  }
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #686868;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: #000000;
+  font-size: 35px;
+}
+.project img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 40px;
+  color: #000000;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #000000;
+}
+
+.GitHubIcon {
+  transition: color 0.3s ease; /* Adding transition for smooth color change */
+}
+
+/* Applying hover effect */
+.GitHubIcon:hover {
+  filter: invert(100%); /* Inverting colors on hover */
+}
