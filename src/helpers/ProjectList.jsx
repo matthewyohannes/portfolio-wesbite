@@ -6,7 +6,7 @@ import TaskListImg from '../assets/TaskList-Portfolio.png'
 
 export const ProjectList = [
     {
-        name: "iOS Messages Clone",
+        name: "Texting Website",
         image: ChatAppImg,
         skills: "ReactJS, ExpressJS, NodeJS, MongoDB, TailwindCSS",
         repository: "https://github.com/matthewyohannes/mern-chat-app"
