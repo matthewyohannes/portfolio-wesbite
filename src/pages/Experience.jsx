@@ -35,17 +35,6 @@ export const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2023-Present"
-          iconStyle={{ background: "#686868", color: "fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            University of Houston, Houston, TX
-          </h3>
-          <p>Customer Relations Manager, UH Student Center</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
           date="2024-Present"
           iconStyle={{ background: "#686868", color: "fff" }}
           icon={<SchoolIcon />}

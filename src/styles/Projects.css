@@ -13,6 +13,10 @@
   font-weight: bolder;
 }
 
+.projects-page-title {
+  text-decoration: underline;
+  font-family: "Rubik Pixels", system-ui;
+}
 .projectList {
   width: 70vw;
   height: auto;
